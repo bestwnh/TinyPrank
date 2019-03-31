@@ -8,7 +8,7 @@ class Player: NSObject, AVAudioPlayerDelegate {
 	
 	init?(url: URL, update: @escaping (TimeInterval?) -> ()) {
 		do {
-			try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord)
+			try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playAndRecord)
 			try AVAudioSession.sharedInstance().setActive(true)
 		} catch {
 			return nil

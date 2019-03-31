@@ -233,10 +233,6 @@ class FolderViewControllerTests: XCTestCase, UINavigationControllerDelegate {
 		let secondCell = self.rootFolderViewController.tableView.cellForRow(at: IndexPath(row: 1, section: 0))
 		XCTAssert(secondCell?.textLabel?.text == "📁  Child 3")
 		
-		folder3.setName("Something else")
-		let secondCellAgain = self.rootFolderViewController.tableView.cellForRow(at: IndexPath(row: 2, section: 0))
-		XCTAssert(secondCellAgain?.textLabel?.text == "📁  Something else")
-		
 		self.store.rootFolder.remove(folder3)
 		let sectionZeroFinalRowCount = self.rootFolderViewController.tableView(self.rootFolderViewController.tableView, numberOfRowsInSection: 0)
 		XCTAssert(sectionZeroFinalRowCount == 2)
